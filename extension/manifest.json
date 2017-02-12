@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "MakeGithubBeautifulAgain",
+  "version": "1.0.0",
+  "description": "Let's make github a Beautiful again!",
+  "icons": {
+    "32": "assets/icon_32.png",
+    "64": "assets/icon_64.png",
+    "120": "assets/icon_120.png"
+  },
+  "browser_action": {
+    "default_title": "Beautiful Github",
+    "default_icon": {
+      "32": "assets/icon_32.png",
+      "64": "assets/icon_64.png",
+      "120": "assets/icon_120.png"
+    }
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://github.com/*",
+        "*://*.github.com/*"
+      ],
+      "css": [
+        "styles/main.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
