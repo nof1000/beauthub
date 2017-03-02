@@ -17,7 +17,6 @@
 
     function render(tmpl, params) {
         return tmpl.replace(RE_TEMPLATE_VAR, function(match, value) {
-            console.log(match);
             if (params[value] !== undefined) return params[value];
             return match;
         });
@@ -66,7 +65,6 @@
                 var id = index;
 
                 elemPreviews.forEach(function(preview, index) {
-                    console.log(preview);
                     if (index != id) return preview.setAttribute('class', 'preview_image');
                     preview.setAttribute('class', 'preview_image preview_image--chosen');
                 });
