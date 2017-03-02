@@ -3,7 +3,52 @@
 }
 
 .header,
+.site-header,
 .header-search-scope {
     background: DeepPink!important;
     border-right-color: rgba(255, 255, 255, 0.12)!important;
+}
+
+.header-logo-invertocat,
+.header-logo-wordmark {
+    color: #fff!important;
+}
+
+.site-header-nav .nav-item,
+.site-header-link,
+.header-nav-link {
+    color: rgba(255, 255, 255, 0.75)!important;
+}
+
+.site-header-nav .nav-item:hover,
+.site-header-nav .nav-item:focus,
+.site-header-link:hover,
+.site-header-link:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: white!important;
+}
+
+.header-search-wrapper {
+    background: #ff37a3!important;
+    color: #fff!important;
+}
+
+.site-header .form-control,
+.site-header .form-select {
+    border: 1px solid transparent!important;
+    color: #fff!important;
+}
+
+.site-header .form-control:focus,
+.site-header .form-select:focus {
+    border: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+
+.header-search-input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.9)!important;
+}
+
+.header-search-input::placeholder {
+    color: rgba(255, 255, 255, 0.9)!important;
 }
