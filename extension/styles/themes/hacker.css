@@ -4,6 +4,7 @@
     font-family: 'Source Sans Pro', sans-serif!important;
 }
 
+.site-header,
 .header {
     background: black!important;
 }
@@ -21,6 +22,12 @@
     filter: grayscale(25%);
 }
 
+.site-header-nav .selected {
+    border-bottom: 3px solid #0f0!important;
+}
+
+.site-header-nav .nav-item,
+.site-header-link,
 .header-nav-link {
     color: #0f0!important;
 }
@@ -34,6 +41,16 @@
     color: #0f0!important;
 }
 
+.site-header .form-control,
+.site-header .form-select {
+    border: 1px solid black!important;
+    color: #0f0!important;
+}
+
+.site-header .form-control:focus,
+.site-header .form-select:focus {
+    border: 1px solid #0f0!important;
+}
 
 .header-search-input::-webkit-input-placeholder {
     color: rgba(0, 255, 0, 0.9)!important;
