@@ -1,5 +1,25 @@
-## Let's make Github beautiful Again!
-![alt awesome_windows_screenshoot](.github/screenshot.png)
+![alt Header of MGBA](.github/header.png)
+
+## Available themes
+* Default
+
+![alt Default Theme](extension/assets/themes/default.png)
+
+
+* Old School
+
+![alt Old School Theme](extension/assets/themes/oldschool.png)
+
+
+* Hacker
+
+![alt Hacker Theme](extension/assets/themes/hacker.png)
+
+
+* Kitty(meow-meow)
+
+![alt Kitty Theme](extension/assets/themes/kitty.png)
+
 
 ## Install
 
