@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    <a href="#what-is">About</a>
+    <a href="#what-is-it">About</a>
     <strong>&emsp;&bull;&emsp;</strong>
     <a href="#how-to-install">Install</a>
     <strong>&emsp;&bull;&emsp;</strong>
@@ -21,15 +21,15 @@
 </p>
 
 
-## What is?
-**Beauthub it's extension that allows to customize your Github!**
+## What is it?
+**Beauthub is an extension that allows you to customize the Github!**
 
 > Inspired by [MakeGithubGreatAgain](https://github.com/DennisSnijder/MakeGithubGreatAgain "MakeGithubGreatAgain")
 
 
 ## How to Install?
 
-* You can install **Beauthub** from Chrome Store:
+* You can install **Beauthub** from the Chrome Store:
 
 <a href="#comingsoon" alt="Chrome Store">
     <img src=".github/chrome_store_button.png" alt="Chrome Store"/>
@@ -37,8 +37,8 @@
 
 
 * Or you can manually install **Beauthub**:
-    * Clone This Repo: `$ git clone https://github.com/nof1000/beauthub.git`
-    * Open up `chrome://extensions` in your browser and click **Developer Mode** in the top right.
+    * Clone this repo: `$ git clone https://github.com/nof1000/beauthub.git`
+    * Open up `chrome://extensions` in your browser and click **Developer Mode** at the top right.
     * Click on the new button **Load unpacked extension...** and select the downloaded folder.
 
 
