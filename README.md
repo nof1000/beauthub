@@ -6,7 +6,7 @@
 
 <p align="center">
     <a href="#comingsoon" alt="Chrome Store">
-        <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="Chrome Store"/>
+        <img src=".github/chrome_store_button.png" alt="Chrome Store"/>
     </a>
 </p>
 
@@ -32,7 +32,7 @@
 * You can install **Beauthub** from Chrome Store:
 
 <a href="#comingsoon" alt="Chrome Store">
-    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="Chrome Store"/>
+    <img src=".github/chrome_store_button.png" alt="Chrome Store"/>
 </a>
 
 
