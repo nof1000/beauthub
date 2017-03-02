@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+.header {
+    background: black!important;
+}
+
+.header-logo-invertocat,
+.header-logo-wordmark {
+    color: #0f0!important;
+}
+
+.header-logo-invertocat:hover,
+.header-logo-wordmark:hover,
+.header-nav-link:hover,
+.header-nav-link:focus,
+.site-footer-mark:hover {
+    filter: grayscale(25%);
+}
+
+.header-nav-link {
+    color: #0f0!important;
+}
+
+.header-search-scope {
+    color: #0f0!important;
+}
+
+.header-search-wrapper {
+    background: #1f1f1f!important;
+    color: #0f0!important;
+}
+
+
+.header-search-input::-webkit-input-placeholder {
+    color: rgba(0, 255, 0, 0.9)!important;
+}
+
+.header-search-input::placeholder {
+    color: rgba(0, 255, 0, 0.9)!important;
+}

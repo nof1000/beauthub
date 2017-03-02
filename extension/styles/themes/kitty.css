@@ -1,0 +1,9 @@
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif!important;
+}
+
+.header,
+.header-search-scope {
+    background: DeepPink!important;
+    border-right-color: rgba(255, 255, 255, 0.12)!important;
+}

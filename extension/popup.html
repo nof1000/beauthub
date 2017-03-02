@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Now Github is Beautiful!</title>
+        <meta charset="utf-8">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles/popup.css">
+    </head>
+    <body>
+        <!-- Templates -->
+        <script id="template-preview" type="text/x-template">
+            <li class="list_item">
+                <div class="preview" data-id="{{id}}">
+                    <div class="preview_image">
+                        <img src="assets/themes/{{image}}">
+                    </div>
+                    <div class="preview_panel">
+                        <div class="preview_palette">
+                            {{palette}}
+                        </div>
+                        <span class="preview_name">{{name}}</span>
+                    </div>
+                </div>
+            </li>
+        </script>
+
+        <script id="template-palette" type="text/x-template">
+            <div class="preview_palette_color" style="background-color: {{color}};"></div>
+        </script>
+
+        <!-- Main -->
+        <ul class="list">
+        </ul>
+
+        <!-- Javascript -->
+        <script src="scripts/popup.js"></script>
+    </body>
+</html>

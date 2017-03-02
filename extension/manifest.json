@@ -4,17 +4,10 @@
   "version": "1.0.0",
   "description": "Let's make github a Beautiful again!",
   "icons": {
-    "32": "assets/icon_32.png",
-    "64": "assets/icon_64.png",
-    "120": "assets/icon_120.png"
-  },
-  "browser_action": {
-    "default_title": "Beautiful Github",
-    "default_icon": {
-      "32": "assets/icon_32.png",
-      "64": "assets/icon_64.png",
-      "120": "assets/icon_120.png"
-    }
+    "32": "assets/icon@1x.png",
+    "64": "assets/icon@2x.png",
+    "128": "assets/icon@3x.png",
+    "256": "assets/icon@4x.png"
   },
   "background": {
     "persistent": false,
@@ -22,16 +15,20 @@
       "scripts/background.js"
     ]
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://github.com/*",
-        "*://*.github.com/*"
-      ],
-      "css": [
-        "styles/main.css"
-      ],
-      "run_at": "document_start"
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Github is Beautiful",
+    "default_icon": {
+      "32": "assets/icon@1x.png",
+      "64": "assets/icon@2x.png",
+      "128": "assets/icon@3x.png",
+      "256": "assets/icon@4x.png"
     }
+  },
+  "permissions": [
+    "*://github.com/*",
+    "*://*.github.com/*",
+    "storage",
+    "tabs"
   ]
 }

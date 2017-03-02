@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Default",
+        "author": "nof1000",
+        "image": "default.png",
+        "palette": [
+            "#1e2327",
+            "#393e41",
+            "#ffffff"
+        ],
+        "style": false
+    },
+    {
+        "name": "Oldschool",
+        "author": "nof1000",
+        "image": "oldschool.png",
+        "palette": [
+            "#191717",
+            "#f5f5f5",
+            "#ffffff"
+        ],
+        "style": "oldschool.css"
+    },
+    {
+        "name": "Hacker",
+        "author": "nof1000",
+        "image": "hacker.png",
+        "palette": [
+            "#000000",
+            "#1f1f1f",
+            "#00ff00"
+        ],
+        "style": "hacker.css"
+    },
+    {
+        "name": "Kitty",
+        "author": "nof1000",
+        "image": "kitty.png",
+        "palette": [
+            "#ff1493",
+            "#ff37a3",
+            "#ffffff"
+        ],
+        "style": "kitty.css"
+    }
+]
