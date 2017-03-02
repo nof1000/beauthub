@@ -90,6 +90,7 @@
 
                     if (!themes[theme].style) return;
                     tabs.insertCSS(id, {
+                        runAt: 'document_start',
                         file: 'styles/themes/' + themes[theme].style,
                     });
                 }
