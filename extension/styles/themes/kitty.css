@@ -14,6 +14,10 @@
     color: #fff!important;
 }
 
+.site-header-nav .selected {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.75)!important;
+}
+
 .site-header-nav .nav-item,
 .site-header-link,
 .header-nav-link {
