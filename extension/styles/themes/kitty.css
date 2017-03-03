@@ -1,16 +1,65 @@
+/** Replace global font */
 * {
     font-family: "Comic Sans MS", cursive, sans-serif!important;
 }
 
-.header,
-.site-header,
-.header-search-scope {
-    background: DeepPink!important;
-    border-right-color: rgba(255, 255, 255, 0.12)!important;
+
+/** Header */
+.header {
+    background-color: DeepPink!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05)!important;
+    color: #fff!important;
 }
 
+
+/** Header icons */
 .header-logo-invertocat,
 .header-logo-wordmark {
+    color: rgba(255, 255, 255, 0.9)!important;
+}
+
+.header-logo-invertocat:hover,
+.header-logo-wordmark:hover {
+    color: #fff!important;
+}
+
+
+/** Header notification */
+.notification-indicator .mail-status {
+    background-image: none!important;
+    background-color: yellow!important;
+    border: 2px solid DeepPink!important;
+    color: #fff!important;
+}
+
+.notification-indicator:hover .mail-status {
+    background-color: #fff!important;
+}
+
+
+/** Header input search */
+.header-search-scope {
+    border-right: 1px solid DeepPink!important;
+    font-size: 14px!important;
+}
+
+
+/** Site header */
+.site-header {
+    background-color: DeepPink!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05)!important;
+    color: #fff!important;
+}
+
+
+/** Site header links */
+.site-header-nav .nav-item,
+.site-header-link {
+    color: rgba(255, 255, 255, 0.9)!important;
+}
+
+.site-header-nav .nav-item:hover,
+.site-header-link:hover {
     color: #fff!important;
 }
 
@@ -18,41 +67,27 @@
     border-bottom: 3px solid rgba(255, 255, 255, 0.75)!important;
 }
 
-.site-header-nav .nav-item,
-.site-header-link,
-.header-nav-link {
-    color: rgba(255, 255, 255, 0.75)!important;
+
+/** Site header input search */
+.site-header .header-search-input {
+    color: DeepPink!important;
 }
 
-.site-header-nav .nav-item:hover,
-.site-header-nav .nav-item:focus,
-.site-header-link:hover,
-.site-header-link:focus,
-.header-nav-link:hover,
-.header-nav-link:focus {
-    color: white!important;
-}
-
-.header-search-wrapper {
-    background: #ff37a3!important;
-    color: #fff!important;
-}
-
-.site-header .form-control,
-.site-header .form-select {
+.site-header .header-search-wrapper {
+    background-color: #fff!important;
     border: 1px solid transparent!important;
-    color: #fff!important;
 }
 
-.site-header .form-control:focus,
-.site-header .form-select:focus {
-    border: 1px solid rgba(255, 255, 255, 0.1)!important;
+.site-header .header-search-wrapper.focus {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5)!important;
 }
 
-.header-search-input::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.9)!important;
+
+/** Site header input placeholder */
+.site-header .header-search-input::-webkit-input-placeholder {
+    color: DeepPink!important;
 }
 
-.header-search-input::placeholder {
-    color: rgba(255, 255, 255, 0.9)!important;
+.site-header .header-search-input::placeholder {
+    color: DeepPink!important;
 }
