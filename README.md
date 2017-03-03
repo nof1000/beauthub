@@ -1,11 +1,11 @@
 <p align="center">
-    <a href="#" alt="Beauthub">
+    <a href="#what-is-it" alt="Beauthub">
         <img src=".github/header.png" alt="Header of Beauthub"/>
     </a>
 </p>
 
 <p align="center">
-    <a href="#comingsoon" alt="Chrome Store">
+    <a href="https://chrome.google.com/webstore/detail/beauthub/lcfomipfkkglpddephpbkalodjmojeho" alt="Chrome Store">
         <img src=".github/chrome_store_button.png" alt="Chrome Store"/>
     </a>
 </p>
@@ -31,7 +31,7 @@
 
 * You can install **Beauthub** from the Chrome Store:
 
-<a href="#comingsoon" alt="Chrome Store">
+<a href="https://chrome.google.com/webstore/detail/beauthub/lcfomipfkkglpddephpbkalodjmojeho" alt="Chrome Store">
     <img src=".github/chrome_store_button.png" alt="Chrome Store"/>
 </a>
 
