@@ -27,11 +27,13 @@ html, body {
 /** Preview */
 .preview {
     background-color: #f2f2f2;
+    border-radius: 2px;
 }
 
 
 /** Preview Image */
 .preview_image {
+    background-color: #f2f2f2;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     display: inline-block;
@@ -73,7 +75,6 @@ html, body {
 }
 
 .preview_palette_color {
-    background: red;
     border-radius: 50%;
     border: solid 1px white;
     margin: 2px;
