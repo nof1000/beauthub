@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Beauthub",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Let's Make Github Beautiful Again!",
   "icons": {
     "32": "assets/icon@1x.png",
